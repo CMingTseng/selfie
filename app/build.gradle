@@ -146,4 +146,9 @@ dependencies {
     implementation project(path: ':lib_selfie')
 //    implementation project(path: ':lib_selfie_api')
     implementation project(path: ':lib_widget')
+    //FaceDetection 
+    //Ref : https://github.com/happysingh23828/CameraX-FaceDetection-MlKit
+    implementation 'com.github.xGonZh10n:opencv_face_detect:0.0.1'
+    implementation "com.github.husaynhakeem:android-face-detector:2.0.1"
+    
 }
